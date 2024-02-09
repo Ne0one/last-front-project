@@ -1,0 +1,103 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+}
+
+body{
+  background-color: #ebebeb;
+}
+
+@font-face {
+  font-family: IRANSansX-Black;
+  src: url(../font/IRANSansX-Black.woff);
+}
+
+@font-face {
+  font-family: IRANSansX-ExtraBold;
+  src: url(../font/IRANSansX-Regular.woff);
+}
+
+*{font-family: IRANSansX-ExtraBold;}
+body{
+  direction: rtl;
+}
+.container{
+  width: 100%;
+}
+.col-md-15 {
+  width: 20%;
+  float: right;
+}
+.col-sm-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-lg-15, .col-md-15, .col-sm-15, .col-xs-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.customTitle {
+  position: relative;
+  display: inline-block;
+  background-color: #ee2d58;
+  color: #fff!important; 
+  padding: 8px 17px 0;
+  font-size: 1em;
+  margin-bottom: 7px;
+  height: 37px;
+}
+.customTitle:after {
+  content: '';
+  position: absolute;
+  left: -33px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 37px solid #ee2d58;
+  border-left: 34px solid transparent;
+}
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.imagecontainer {
+  width: 100%;
+  height: 150px;
+  display: block;
+  background-size: cover!important;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+a.textContainer {
+  transition: color .2s ease-out;
+}
+a {
+  color: #0d6efd;
+  text-decoration: solid;
+}
+ul{
+  list-style: none;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 4px;
+  right: 16px;
+}
+.sepratorContains{
+  content: '';
+  height: 49px;
+  width: 49px;
+  background: #ccc;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -24px;
+  z-index: 9;
+}
